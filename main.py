@@ -52,7 +52,7 @@ lock = threading.Lock()  # 用于线程锁
 
 project_info = "## ChatGPT 网页版    \n" \
                " Code From  " \
-               "[ChatGPT-Web](https://github.com/LiangYang666/ChatGPT-Web)  \n" \
+               "[ChatGPT-Web](https://github.com/guzhaoyue/ChatGPT-Web)  \n" \
                "发送`帮助`可获取帮助  \n"
 
 
@@ -467,7 +467,7 @@ def auth(request_head, session):
 
     user_info = get_user_info(user_id)
     if len(PASSWORD) > 0 and password != PASSWORD:
-        return False, "访问密码错误，请在设置中填写正确的访问密码"
+        return False, "访问密码错误，请联系管理员或在设置中填写正确的访问密码"
 
     if user_info is not None:
         session['user_id'] = user_id
