@@ -1,5 +1,6 @@
-# 使用GPT-3.5 API创建的ChatGPT聊天页面，模型回复效果与官网的ChatGPT一致
+# 转载至
 ## Star the [Repository](https://github.com/LiangYang666/ChatGPT-Web)  
+## 自用
 <details>
 <summary>TODO List</summary>
 
